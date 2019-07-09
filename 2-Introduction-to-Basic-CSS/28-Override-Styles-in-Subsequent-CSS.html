@@ -1,0 +1,17 @@
+/* Order does not matter when classes are listed in the html element but does in style */
+/* the 2nd/last class declaration overrides the 1st/prior class */
+
+<style>
+  body {
+    background-color: black;
+    font-family: monospace;
+    color: green;
+  }
+  .pink-text {
+    color: pink;
+  }
+  .blue-text {
+    color: blue;
+  }
+</style>
+<h1 class="pink-text blue-text">Hello World!</h1>
