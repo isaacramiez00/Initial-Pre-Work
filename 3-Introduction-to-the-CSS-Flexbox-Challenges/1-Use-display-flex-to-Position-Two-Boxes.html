@@ -1,41 +1,27 @@
-/* Visual Design plays a huge role in UE and thus, CSS properties can help with that */
-/* CSS text-align properties help align our content in such a way based on given value:
-justify, center, right, left (default) */
-
+<!-- Challenge style such as the flexbox concept are applied to position elements in a flexible way in CSS -->
+<!-- display: flex; CSS property allows us to use other flex properties to build a responsive page -->
 
 <style>
-  h4 {
+  #box-container {
+    height: 500px;
+    display: flex;
+  }
+
+  #box-1 {
+    background-color: dodgerblue;
+    width: 50%;
+    height: 50%;
 
   }
-  p {
 
-  }
-  .links {
-    margin-right: 20px;
+  #box-2 {
+    background-color: orangered;
+    width: 50%;
+    height: 50%;
 
-  }
-  .fullCard {
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    margin: 10px 5px;
-    padding: 4px;
-  }
-  .cardContent {
-    padding: 10px;
-  }
-  .goog {
-    text-align: center;
   }
 </style>
-<div class="fullCard">
-  <div class="cardContent">
-    <div class="cardText">
-      <h4 class="goog">Google</h4>
-      <p style="text-align: justify;">Google was founded by Larry Page and Sergey Brin while they were Ph.D. students at Stanford University.</p>
-    </div>
-    <div class="cardLinks">
-      <a href="https://en.wikipedia.org/wiki/Larry_Page" target="_blank" class="links">Larry Page</a>
-      <a href="https://en.wikipedia.org/wiki/Sergey_Brin" target="_blank" class="links">Sergey Brin</a>
-    </div>
-  </div>
+<div id="box-container">
+  <div id="box-1"></div>
+  <div id="box-2"></div>
 </div>
