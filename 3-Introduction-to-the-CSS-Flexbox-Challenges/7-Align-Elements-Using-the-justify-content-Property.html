@@ -1,40 +1,30 @@
-<!-- s tag and css text-decoration: line-through; strikethroughs text characters to show its invalid -->
+<!-- CSS justify-content property helps us align and space flex items within flex containter -->
+<!-- Main axis: direction the flex items are arranged -->
+<!-- Main axis for rows is a horizontal line; main axis for column is vertical line -->
+<!-- justify-content values: center; flex-start; flex-end; space-between; space-around; -->
 
 <style>
-  h4 {
-    text-align: center;
-    height: 25px;
+  #box-container {
+    background: gray;
+    display: flex;
+    height: 500px;
+    justify-content: center;
+
   }
-  p {
-    text-align: justify;
+  #box-1 {
+    background-color: dodgerblue;
+    width: 25%;
+    height: 100%;
   }
-  .links {
-    text-align: left;
-    color: black;
-  }
-  .fullCard {
-    width: 245px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    margin: 10px 5px;
-    padding: 4px;
-  }
-  .cardContent {
-    padding: 10px;
-  }
-  .cardText {
-    margin-bottom: 30px;
+
+  #box-2 {
+    background-color: orangered;
+    width: 25%;
+    height: 100%;
   }
 </style>
-<div class="fullCard">
-  <div class="cardContent">
-    <div class="cardText">
-      <h4><s>Google</s> Alphabet</h4>
-      <p><em>Google was founded by Larry Page and Sergey Brin while they were <u>Ph.D. students</u> at <strong>Stanford University</strong>.</em></p>
-    </div>
-    <div class="cardLinks">
-      <a href="https://en.wikipedia.org/wiki/Larry_Page" target="_blank" class="links">Larry Page</a><br><br>
-      <a href="https://en.wikipedia.org/wiki/Sergey_Brin" target="_blank" class="links">Sergey Brin</a>
-    </div>
-  </div>
+
+<div id="box-container">
+  <div id="box-1"></div>
+  <div id="box-2"></div>
 </div>
