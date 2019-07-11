@@ -1,41 +1,26 @@
-<!-- u tag underlines text; CSS "text-decoration: underline;" does as well -->
-<!-- Underline text symbolizes importance -->
+<!-- Flex-direction allows us to set child elements vertically using value "column" -->
 
 <style>
-  h4 {
-    text-align: center;
-    height: 25px;
+  #box-container {
+    display: flex;
+    height: 500px;
+    flex-direction: column;
+
   }
-  p {
-    text-align: justify;
+  #box-1 {
+    background-color: dodgerblue;
+    width: 50%;
+    height: 50%;
   }
-  .links {
-    text-align: left;
-    color: black;
-  }
-  .fullCard {
-    width: 245px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    margin: 10px 5px;
-    padding: 4px;
-  }
-  .cardContent {
-    padding: 10px;
-  }
-  .cardText {
-    margin-bottom: 30px;
+
+  #box-2 {
+    background-color: orangered;
+    width: 50%;
+    height: 50%;
   }
 </style>
-<div class="fullCard">
-  <div class="cardContent">
-    <div class="cardText">
-      <h4>Google</h4>
-      <p>Google was founded by Larry Page and Sergey Brin while they were <u>Ph.D. students</u> at <strong>Stanford University</strong>.</p>
-    </div>
-    <div class="cardLinks">
-      <a href="https://en.wikipedia.org/wiki/Larry_Page" target="_blank" class="links">Larry Page</a><br><br>
-      <a href="https://en.wikipedia.org/wiki/Sergey_Brin" target="_blank" class="links">Sergey Brin</a>
-    </div>
-  </div>
+
+<div id="box-container">
+  <div id="box-1"></div>
+  <div id="box-2"></div>
 </div>
