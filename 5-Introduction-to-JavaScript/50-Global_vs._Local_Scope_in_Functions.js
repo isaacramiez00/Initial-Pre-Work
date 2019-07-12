@@ -1,0 +1,15 @@
+//We can have global/local variable with same name but the local variable ranks higher
+
+// Setup
+var outerWear = "T-Shirt";
+
+function myOutfit() {
+  // Only change code below this line
+  var outerWear = "sweater";
+
+
+  // Only change code above this line
+  return outerWear;
+}
+
+myOutfit();
