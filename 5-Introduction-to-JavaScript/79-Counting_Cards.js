@@ -1,5 +1,5 @@
 //Applied global variable, switch statement, and if/else statement
-//C: Create a function that decided to bet or hold
+//C: Create a function that decided to bet or hold 
 
 var count = 0;
 
