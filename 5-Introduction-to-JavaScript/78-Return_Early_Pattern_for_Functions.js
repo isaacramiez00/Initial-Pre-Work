@@ -1,5 +1,5 @@
 //function stops excecuting once return statement is read; acts like break
-//C: Add if statement 
+//C: Add if statement  
 
 // Setup
 function abTest(a, b) {
