@@ -3,7 +3,7 @@
   return a === b;
 }
 */
-//C: Return boolean value in isLess()
+//C: Return boolean value in isLess() 
 
 function isLess(a, b) {
   return a < b;
