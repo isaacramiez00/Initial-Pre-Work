@@ -1,4 +1,5 @@
 //Applied if/else if and comparison operators to create a golfScore function
+//c: Create golfScore()
 
 var names = ["Hole-in-one!", "Eagle", "Birdie", "Par", "Bogey", "Double Bogey", "Go Home!"];
 function golfScore(par, strokes) {
