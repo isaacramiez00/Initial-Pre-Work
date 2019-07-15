@@ -1,0 +1,21 @@
+// do while loops are like while loops except the exececuted code goes inside do {} then the while condition
+//It will do at least one line of code no matter what becsause of order
+/*
+var ourArray = [];
+var i = 0;
+do {
+  ourArray.push(i);
+  i++;
+} while (i < 5);
+*/
+
+// Setup
+var myArray = [];
+var i = 10;
+
+// Only change code below this line.
+do {
+  myArray.push(i);
+  i++;
+}
+while (i < 11);
