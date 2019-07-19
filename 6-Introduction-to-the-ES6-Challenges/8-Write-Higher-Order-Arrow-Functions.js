@@ -3,7 +3,8 @@
 "reduce() method reduces the array to a signle value"(wdschools)
 "The Math.pow() function returns the base to the exponent power, that is, baseexponent." (developers.mozilla.org)
 */
-
+/* This function tells the computer to create a new array of elm that pass the cnodition of being a positive
+int, then creates a new array with those values to reutn the base 2 exponent power */
 const realNumberArray = [4, 5.6, -9.8, 3.14, 42, 6, 8.34, -2];
 const squareList = (arr) => {
   "use strict";
@@ -15,8 +16,7 @@ const squareList = (arr) => {
     };
 
     // test your code
-    const squaredIntegers = squareList(realNumberArray);
-    console.log(squaredIntegers);  // change code above this line
+    // change code above this line
   return squaredIntegers;
 };
 // test your code
